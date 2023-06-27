@@ -20,8 +20,6 @@ export const FoodInfo = (props: FoodInfoInputProps) => {
     (member): member is FieldMember => member.kind === 'field' && member.name === 'story'
   )
 
-  console.log("HELLO")
-
   return (
     <>
       <div> Hello world! </div>
