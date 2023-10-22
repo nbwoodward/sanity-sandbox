@@ -1,13 +1,10 @@
 {
+  "name": "@packages/shared",
   "private": true,
   "version": "1.0.0",
   "license": "UNLICENSED",
   "packageManager": "yarn@3.3.0",
-  "workspaces": [
-    "app",
-    "packages/shared"
-  ],
-  "scripts": {
-    "dev": "cd app && yarn dev"
+  "dependencies": {
+    "sanity": "^3.13.0"
   }
 }
