@@ -1,6 +1,6 @@
 import {DefaultDocumentNodeResolver, StructureBuilder, StructureResolver} from 'sanity/desk'
 import {LocalClientView} from './components/localClientView'
-import { SharedClientView} from '@packages/shared/sharedClientView'
+import { SharedClientView} from '@packages/shared/components/sharedClientView'
 
 export const structure: StructureResolver = async (S, context) => {
   return S.list()

@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import {SanityDocument} from 'sanity'
-import { useSanityClient } from '../client'
+import { useSanityClient } from '../useSanityClient'
 
 export const LocalClientView = ({ document }: { document: SanityDocument }) => {
   const [state, setState] = useState('Fetching')
@@ -18,7 +18,7 @@ export const LocalClientView = ({ document }: { document: SanityDocument }) => {
 
   return (
     <div style={{padding:'20px'}}>
-      <h4>I'm the Local Client View</h4>
+      <h4>I'm the local client view</h4>
       <div>{state}</div>
     </div>
   )

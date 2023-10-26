@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import {SanityDocument} from 'sanity'
-import { useSanityClient } from './client'
+import { useSanityClient } from '../useSanityClient'
 
 export const SharedClientView = ({ document }: { document: SanityDocument }) => {
   const [state, setState] = useState('Fetching')
